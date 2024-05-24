@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luiz\\source\\repos\\Projects\\Deposito\\DepositoDeBebidas\\DepositoDeBebidas.csproj": {}
+    "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\DepositoDeBebidas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luiz\\source\\repos\\Projects\\Deposito\\DepositoDeBebidas\\DepositoDeBebidas.csproj": {
+    "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\DepositoDeBebidas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luiz\\source\\repos\\Projects\\Deposito\\DepositoDeBebidas\\DepositoDeBebidas.csproj",
+        "projectUniqueName": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\DepositoDeBebidas.csproj",
         "projectName": "DepositoDeBebidas",
-        "projectPath": "C:\\Users\\Luiz\\source\\repos\\Projects\\Deposito\\DepositoDeBebidas\\DepositoDeBebidas.csproj",
+        "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\DepositoDeBebidas.csproj",
         "packagesPath": "C:\\Users\\Luiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luiz\\source\\repos\\Projects\\Deposito\\DepositoDeBebidas\\obj\\",
+        "outputPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,9 +50,35 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -74,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
