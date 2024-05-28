@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DepositoDeBebidas.Migrations
 {
     [DbContext(typeof(UsersDbContext))]
-    [Migration("20240523181552_CreateUsers")]
+    [Migration("20240525124429_CreateUsers")]
     partial class CreateUsers
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,14 +36,14 @@ namespace DepositoDeBebidas.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("DateBirth")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
                     b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Isclient")
                         .HasColumnType("bit");
 
                     b.Property<bool>("LockoutEnabled")

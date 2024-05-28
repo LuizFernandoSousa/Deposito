@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EFCCB278-1067-4C02-9A78-2DB757573607}|DepositoDeBebidas\\DepositoDeBebidas.csproj|c:\\users\\luiz\\documents\\github\\deposito\\depositodebebidas\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFCCB278-1067-4C02-9A78-2DB757573607}|DepositoDeBebidas\\DepositoDeBebidas.csproj|solutionrelative:depositodebebidas\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EFCCB278-1067-4C02-9A78-2DB757573607}|DepositoDeBebidas\\DepositoDeBebidas.csproj|c:\\users\\luiz\\documents\\github\\deposito\\depositodebebidas\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFCCB278-1067-4C02-9A78-2DB757573607}|DepositoDeBebidas\\DepositoDeBebidas.csproj|solutionrelative:depositodebebidas\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFCCB278-1067-4C02-9A78-2DB757573607}|DepositoDeBebidas\\DepositoDeBebidas.csproj|c:\\users\\luiz\\documents\\github\\deposito\\depositodebebidas\\data\\dtos\\createusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFCCB278-1067-4C02-9A78-2DB757573607}|DepositoDeBebidas\\DepositoDeBebidas.csproj|solutionrelative:depositodebebidas\\data\\dtos\\createusersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFCCB278-1067-4C02-9A78-2DB757573607}|DepositoDeBebidas\\DepositoDeBebidas.csproj|c:\\users\\luiz\\documents\\github\\deposito\\depositodebebidas\\service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFCCB278-1067-4C02-9A78-2DB757573607}|DepositoDeBebidas\\DepositoDeBebidas.csproj|solutionrelative:depositodebebidas\\service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFCCB278-1067-4C02-9A78-2DB757573607}|DepositoDeBebidas\\DepositoDeBebidas.csproj|c:\\users\\luiz\\documents\\github\\deposito\\depositodebebidas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFCCB278-1067-4C02-9A78-2DB757573607}|DepositoDeBebidas\\DepositoDeBebidas.csproj|solutionrelative:depositodebebidas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFCCB278-1067-4C02-9A78-2DB757573607}|DepositoDeBebidas\\DepositoDeBebidas.csproj|c:\\users\\luiz\\documents\\github\\deposito\\depositodebebidas\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFCCB278-1067-4C02-9A78-2DB757573607}|DepositoDeBebidas\\DepositoDeBebidas.csproj|solutionrelative:depositodebebidas\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 235,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,53 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\Model\\Users.cs",
-              "RelativeDocumentMoniker": "DepositoDeBebidas\\Model\\Users.cs",
-              "ToolTip": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\Model\\Users.cs",
-              "RelativeToolTip": "DepositoDeBebidas\\Model\\Users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T19:02:11.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateUsersDto.cs",
-              "DocumentMoniker": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\Data\\Dtos\\CreateUsersDto.cs",
-              "RelativeDocumentMoniker": "DepositoDeBebidas\\Data\\Dtos\\CreateUsersDto.cs",
-              "ToolTip": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\Data\\Dtos\\CreateUsersDto.cs",
-              "RelativeToolTip": "DepositoDeBebidas\\Data\\Dtos\\CreateUsersDto.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAMwBsAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T19:01:50.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "DepositoDeBebidas\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "DepositoDeBebidas\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAwwCgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:33:24.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\Program.cs",
               "RelativeDocumentMoniker": "DepositoDeBebidas\\Program.cs",
               "ToolTip": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\Program.cs",
               "RelativeToolTip": "DepositoDeBebidas\\Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAkwAsAAAAEAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:53:53.114Z",
+              "WhenOpened": "2024-05-27T18:33:55.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "DepositoDeBebidas\\Service\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\Service\\TokenService.cs",
+              "RelativeToolTip": "DepositoDeBebidas\\Service\\TokenService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBUAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:46:40.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\Service\\UserServices.cs",
+              "RelativeDocumentMoniker": "DepositoDeBebidas\\Service\\UserServices.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\Service\\UserServices.cs",
+              "RelativeToolTip": "DepositoDeBebidas\\Service\\UserServices.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvyUAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:07:22.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "DepositoDeBebidas\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "DepositoDeBebidas\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwCIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T16:17:49.248Z",
               "EditorCaption": ""
             }
           ]

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DepositoDeBebidas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a37b4a4aecaa9133ee08254bbdf73751e17f4d5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5091f22cc0b0177d5a341ecd837092da535813ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("DepositoDeBebidas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DepositoDeBebidas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

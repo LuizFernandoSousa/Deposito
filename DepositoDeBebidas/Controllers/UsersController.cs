@@ -1,45 +1,39 @@
 ﻿using AutoMapper;
 using DepositoDeBebidas.Data.Dtos;
 using DepositoDeBebidas.Model;
+using DepositoDeBebidas.Service;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DepositoDeBebidas.Controllers
 {
     [ApiController]
-    [Route("[Controller]")]
-
-
-
+    [Route("[Controller]")]// Aqui você decide o endereço da classe de controler, exemplo: https:/localhost:7082/users
     public class UsersController : ControllerBase
     {
-        private IMapper _mapper;
-        private UserManager<Users> _userManager;
+        
+        private UserServices _usersService;
 
-        public UsersController(IMapper mapper, UserManager<Users> userManager)
+        public UsersController(UserServices registerService)
         {
-            _mapper = mapper;
-            _userManager = userManager;
+            _usersService = registerService;
         }
 
-        [HttpPost]
+        [HttpPost("Register")]
         public async Task<IActionResult> CreateUsers(CreateUsersDto dto)
         {  
-            Users user = _mapper.Map<Users>(dto);
-
-            IdentityResult result = await _userManager.CreateAsync(user, dto.Password);
-
-            if (result.Succeeded)
-            {
-                return Ok("User create");
-            }
-            else
-            {
-                throw new ApplicationException("Fail to create a user");
-            }
-
+            
+            await _usersService.RegisterAsync(dto);
+            return Ok("User create");
         }
 
+
+        [HttpPost("Login")]//https:/localhost:7082/users/Login
+        public async Task<IActionResult> Login(LoginUsersDto dto)
+        {
+            var token = await _usersService.Login(dto);
+            return Ok(token);
+        }
        
     }
 }

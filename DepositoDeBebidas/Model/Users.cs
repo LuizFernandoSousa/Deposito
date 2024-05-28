@@ -13,7 +13,7 @@ namespace DepositoDeBebidas.Model
         //PhoneNumber
         //
 
-        public DateTime DateBirth { get; set; }
+        public bool Isclient { get; set; }
 
         public Users() : base() { }
         
