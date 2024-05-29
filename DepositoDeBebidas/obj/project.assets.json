@@ -2562,9 +2562,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\DepositoDeBebidas.csproj",
-      "projectName": "DepositoDeBebidas",
-      "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\DepositoDeBebidas.csproj",
+      "projectUniqueName": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\UsuarioDeposito.csproj",
+      "projectName": "UsuarioDeposito",
+      "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\UsuarioDeposito.csproj",
       "packagesPath": "C:\\Users\\Luiz\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\DepositoDeBebidas\\obj\\",
       "projectStyle": "PackageReference",
