@@ -1,0 +1,15 @@
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\bin\Debug\net6.0\Suppliers.deps.json
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\bin\Debug\net6.0\Suppliers.runtimeconfig.json
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\bin\Debug\net6.0\Suppliers.dll
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\bin\Debug\net6.0\Suppliers.pdb
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\obj\Debug\net6.0\Suppliers.csproj.AssemblyReference.cache
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\obj\Debug\net6.0\Suppliers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\obj\Debug\net6.0\Suppliers.AssemblyInfoInputs.cache
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\obj\Debug\net6.0\Suppliers.AssemblyInfo.cs
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\obj\Debug\net6.0\Suppliers.csproj.CoreCompileInputs.cache
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\obj\Debug\net6.0\Suppliers.sourcelink.json
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\obj\Debug\net6.0\Suppliers.dll
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\obj\Debug\net6.0\refint\Suppliers.dll
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\obj\Debug\net6.0\Suppliers.pdb
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\obj\Debug\net6.0\Suppliers.genruntimeconfig.cache
+C:\Users\Luiz\Documents\GitHub\Deposito\Suppliers\obj\Debug\net6.0\ref\Suppliers.dll
