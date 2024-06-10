@@ -10,4 +10,8 @@
     <ProjectReference Include="..\Users\Users.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Pages\" />
+  </ItemGroup>
+
 </Project>
