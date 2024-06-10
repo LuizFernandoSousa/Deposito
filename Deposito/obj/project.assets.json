@@ -1033,11 +1033,13 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "MainSite": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.14",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.24",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "Users": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Client.dll": {}
@@ -1045,6 +1047,22 @@
         "runtime": {
           "bin/placeholder/Client.dll": {}
         }
+      },
+      "MainSite/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Users": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MainSite.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MainSite.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Product/1.0.0": {
         "type": "project",
@@ -1055,7 +1073,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.24",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "Users": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Product.dll": {}
@@ -1073,7 +1092,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.24",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "Users": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Suppliers.dll": {}
@@ -2620,6 +2640,11 @@
       "path": "../Client/Client.csproj",
       "msbuildProject": "../Client/Client.csproj"
     },
+    "MainSite/1.0.0": {
+      "type": "project",
+      "path": "../MainSite/MainSite.csproj",
+      "msbuildProject": "../MainSite/MainSite.csproj"
+    },
     "Product/1.0.0": {
       "type": "project",
       "path": "../Product/Product.csproj",
@@ -2640,6 +2665,7 @@
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
       "Client >= 1.0.0",
+      "MainSite >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.14",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.24",
@@ -2688,6 +2714,9 @@
           "projectReferences": {
             "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Client\\Client.csproj": {
               "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Client\\Client.csproj"
+            },
+            "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\MainSite\\MainSite.csproj": {
+              "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\MainSite\\MainSite.csproj"
             },
             "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Product\\Product.csproj": {
               "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Product\\Product.csproj"

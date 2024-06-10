@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E13AE293-BE2B-43FB-8BB1-9F9ECB2EF6D3}|Deposito\\Deposito.csproj|c:\\users\\luiz\\documents\\github\\deposito\\deposito\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E13AE293-BE2B-43FB-8BB1-9F9ECB2EF6D3}|Deposito\\Deposito.csproj|solutionrelative:deposito\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB918C64-590C-4886-8401-F6C88870554B}|MainSite\\MainSite.csproj|c:\\users\\luiz\\documents\\github\\deposito\\mainsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB918C64-590C-4886-8401-F6C88870554B}|MainSite\\MainSite.csproj|solutionrelative:mainsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB918C64-590C-4886-8401-F6C88870554B}|MainSite\\MainSite.csproj|c:\\users\\luiz\\documents\\github\\deposito\\mainsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB918C64-590C-4886-8401-F6C88870554B}|MainSite\\MainSite.csproj|solutionrelative:mainsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Deposito\\Program.cs",
-              "RelativeDocumentMoniker": "Deposito\\Program.cs",
-              "ToolTip": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Deposito\\Program.cs",
-              "RelativeToolTip": "Deposito\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\MainSite\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MainSite\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\MainSite\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MainSite\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T19:57:27.709Z",
+              "WhenOpened": "2024-06-10T18:45:27.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\MainSite\\Program.cs",
+              "RelativeDocumentMoniker": "MainSite\\Program.cs",
+              "ToolTip": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\MainSite\\Program.cs",
+              "RelativeToolTip": "MainSite\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:42:55.293Z",
               "EditorCaption": ""
             }
           ]
