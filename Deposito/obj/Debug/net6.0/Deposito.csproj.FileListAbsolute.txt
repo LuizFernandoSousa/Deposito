@@ -86,3 +86,10 @@ C:\Users\Luiz\Documents\GitHub\Deposito\Deposito\bin\Debug\net6.0\Client.dll
 C:\Users\Luiz\Documents\GitHub\Deposito\Deposito\bin\Debug\net6.0\Client.pdb
 C:\Users\Luiz\Documents\GitHub\Deposito\Deposito\bin\Debug\net6.0\Suppliers.dll
 C:\Users\Luiz\Documents\GitHub\Deposito\Deposito\bin\Debug\net6.0\Suppliers.pdb
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito\bin\Debug\net6.0\MainSite.deps.json
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito\bin\Debug\net6.0\MainSite.runtimeconfig.json
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito\bin\Debug\net6.0\MainSite.staticwebassets.runtime.json
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito\bin\Debug\net6.0\MainSite.exe
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito\bin\Debug\net6.0\Deposito.staticwebassets.runtime.json
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito\bin\Debug\net6.0\MainSite.dll
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito\bin\Debug\net6.0\MainSite.pdb

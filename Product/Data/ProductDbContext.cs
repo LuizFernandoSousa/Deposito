@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Product.Model;
+using Product.Data;
 
 namespace Product.Data;
 
@@ -11,7 +12,7 @@ public class ProductDbContext : DbContext
     }
 
 
-    public DbSet<Products> Products { get; set; }
+    public DbSet<Productsss> Products { get; set; }
 
 
 

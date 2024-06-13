@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WarPRzMmVTg=",
+  "dgSpecHash": "6ju8MVp8Q4Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Deposito\\Deposito.csproj",
+  "projectFilePath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Deposito\\Deposito.Api2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luiz\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Luiz\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

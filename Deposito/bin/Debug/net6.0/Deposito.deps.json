@@ -10,6 +10,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "Client": "1.0.0",
+          "MainSite": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.14",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.24",
@@ -625,14 +626,24 @@
       "Client/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "MainSite": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.14",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.24",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "Users": "1.0.0"
         },
         "runtime": {
           "Client.dll": {}
+        }
+      },
+      "MainSite/1.0.0": {
+        "dependencies": {
+          "Users": "1.0.0"
+        },
+        "runtime": {
+          "MainSite.dll": {}
         }
       },
       "Product/1.0.0": {
@@ -642,7 +653,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.24",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "Users": "1.0.0"
         },
         "runtime": {
           "Product.dll": {}
@@ -655,7 +667,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.24",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "Users": "1.0.0"
         },
         "runtime": {
           "Suppliers.dll": {}
@@ -1098,6 +1111,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MainSite/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

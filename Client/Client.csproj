@@ -20,8 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MainSite\MainSite.csproj" />
-    <ProjectReference Include="..\Users\Users.csproj" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Data\Dtos\" />
+    <Folder Include="Profiles\" />
   </ItemGroup>
 
 </Project>

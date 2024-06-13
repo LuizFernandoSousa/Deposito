@@ -2,21 +2,20 @@
 using Product.Data.Dtos;
 using Product.Model;
 
-namespace Product.Profiles
+namespace Product.Profiles;
+
+public class ProdutcProfile : Profile
 {
-    public class ProdutcProfile : Profile
+
+    public ProdutcProfile()
     {
+        CreateMap<CreateProductDto, Productsss>();
 
-        public ProdutcProfile()
-        {
-            CreateMap<CreateProductDto, Products>();
-
-            
-            CreateMap<ReadAmoutProdutcDto, Products>();
-            CreateMap<Products, ReadAmoutProdutcDto>();
+        
+        CreateMap<ReadAmoutProdutcDto, Productsss>();
+        CreateMap<Productsss, ReadAmoutProdutcDto>();
 
 
 
-        }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\bin\Debug\net6.0\Deposito.Shared.Models.deps.json
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\bin\Debug\net6.0\Deposito.Shared.Models.runtimeconfig.json
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\bin\Debug\net6.0\Deposito.Shared.Models.dll
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\bin\Debug\net6.0\Deposito.Shared.Models.pdb
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\obj\Debug\net6.0\Deposito.Shared.Models.csproj.AssemblyReference.cache
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\obj\Debug\net6.0\Deposito.Shared.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\obj\Debug\net6.0\Deposito.Shared.Models.AssemblyInfoInputs.cache
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\obj\Debug\net6.0\Deposito.Shared.Models.AssemblyInfo.cs
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\obj\Debug\net6.0\Deposito.Shared.Models.csproj.CoreCompileInputs.cache
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\obj\Debug\net6.0\Deposito.Shared.Models.sourcelink.json
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\obj\Debug\net6.0\Deposito.Shared.Models.dll
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\obj\Debug\net6.0\refint\Deposito.Shared.Models.dll
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\obj\Debug\net6.0\Deposito.Shared.Models.pdb
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\obj\Debug\net6.0\Deposito.Shared.Models.genruntimeconfig.cache
+C:\Users\Luiz\Documents\GitHub\Deposito\Deposito.Shared.Models\obj\Debug\net6.0\ref\Deposito.Shared.Models.dll

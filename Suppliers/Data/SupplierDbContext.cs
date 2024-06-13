@@ -14,5 +14,5 @@ public class SupplierDbContext : DbContext
     {            
     }
 
-    public DbSet<Supplier> Suppliers { get; set; }
+    
 }

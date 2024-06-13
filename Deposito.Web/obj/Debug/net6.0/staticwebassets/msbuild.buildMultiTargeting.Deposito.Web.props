@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Deposito.Web.props" />
+</Project>

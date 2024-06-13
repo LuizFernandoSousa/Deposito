@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "VIVyiCzH0zPZ5GPEWf1Hi073Ah9c0iDCL0WueW6PK1E=",
-  "Source": "Deposito",
-  "BasePath": "_content/Deposito",
+  "Hash": "MThA8vCLGAoO8aeq8jJNd8yhw58O6CjDRx9prXrMYrY=",
+  "Source": "Deposito.Api2",
+  "BasePath": "_content/Deposito.Api2",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

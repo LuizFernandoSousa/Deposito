@@ -1028,43 +1028,26 @@
           }
         }
       },
-      "Client/1.0.0": {
+      "Deposito.Shared.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
-          "MainSite": "1.0.0",
+          "Deposito.Shared.Models": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.14",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.24",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
-          "Swashbuckle.AspNetCore": "6.2.3",
-          "Users": "1.0.0"
+          "Swashbuckle.AspNetCore": "6.2.3"
         },
         "compile": {
-          "bin/placeholder/Client.dll": {}
+          "bin/placeholder/Deposito.Shared.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Client.dll": {}
+          "bin/placeholder/Deposito.Shared.Data.dll": {}
         }
       },
-      "MainSite/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Users": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/MainSite.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MainSite.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "Product/1.0.0": {
+      "Deposito.Shared.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -1073,33 +1056,13 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.24",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
-          "Swashbuckle.AspNetCore": "6.2.3",
-          "Users": "1.0.0"
+          "Swashbuckle.AspNetCore": "6.2.3"
         },
         "compile": {
-          "bin/placeholder/Product.dll": {}
+          "bin/placeholder/Deposito.Shared.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Product.dll": {}
-        }
-      },
-      "Suppliers/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.14",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.24",
-          "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
-          "Swashbuckle.AspNetCore": "6.2.3",
-          "Users": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Suppliers.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Suppliers.dll": {}
+          "bin/placeholder/Deposito.Shared.Models.dll": {}
         }
       },
       "Users/1.0.0": {
@@ -2635,25 +2598,15 @@
         "version.txt"
       ]
     },
-    "Client/1.0.0": {
+    "Deposito.Shared.Data/1.0.0": {
       "type": "project",
-      "path": "../Client/Client.csproj",
-      "msbuildProject": "../Client/Client.csproj"
+      "path": "../Deposito.Shared.Data/Deposito.Shared.Data.csproj",
+      "msbuildProject": "../Deposito.Shared.Data/Deposito.Shared.Data.csproj"
     },
-    "MainSite/1.0.0": {
+    "Deposito.Shared.Models/1.0.0": {
       "type": "project",
-      "path": "../MainSite/MainSite.csproj",
-      "msbuildProject": "../MainSite/MainSite.csproj"
-    },
-    "Product/1.0.0": {
-      "type": "project",
-      "path": "../Product/Product.csproj",
-      "msbuildProject": "../Product/Product.csproj"
-    },
-    "Suppliers/1.0.0": {
-      "type": "project",
-      "path": "../Suppliers/Suppliers.csproj",
-      "msbuildProject": "../Suppliers/Suppliers.csproj"
+      "path": "../Deposito.Shared.Models/Deposito.Shared.Models.csproj",
+      "msbuildProject": "../Deposito.Shared.Models/Deposito.Shared.Models.csproj"
     },
     "Users/1.0.0": {
       "type": "project",
@@ -2664,16 +2617,14 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
-      "Client >= 1.0.0",
-      "MainSite >= 1.0.0",
+      "Deposito.Shared.Data >= 1.0.0",
+      "Deposito.Shared.Models >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.14",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.24",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.24",
       "Microsoft.Extensions.Identity.Stores >= 6.0.14",
       "Pomelo.EntityFrameworkCore.MySql >= 6.0.2",
-      "Product >= 1.0.0",
-      "Suppliers >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "System.IdentityModel.Tokens.Jwt >= 7.5.2",
       "Users >= 1.0.0"
@@ -2686,9 +2637,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Deposito\\Deposito.csproj",
-      "projectName": "Deposito",
-      "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Deposito\\Deposito.csproj",
+      "projectUniqueName": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Deposito\\Deposito.Api2.csproj",
+      "projectName": "Deposito.Api2",
+      "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Deposito\\Deposito.Api2.csproj",
       "packagesPath": "C:\\Users\\Luiz\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Deposito\\obj\\",
       "projectStyle": "PackageReference",
@@ -2712,17 +2663,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Client\\Client.csproj": {
-              "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Client\\Client.csproj"
+            "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Deposito.Shared.Data\\Deposito.Shared.Data.csproj": {
+              "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Deposito.Shared.Data\\Deposito.Shared.Data.csproj"
             },
-            "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\MainSite\\MainSite.csproj": {
-              "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\MainSite\\MainSite.csproj"
-            },
-            "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Product\\Product.csproj": {
-              "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Product\\Product.csproj"
-            },
-            "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Suppliers\\Suppliers.csproj": {
-              "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Suppliers\\Suppliers.csproj"
+            "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Deposito.Shared.Models\\Deposito.Shared.Models.csproj": {
+              "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Deposito.Shared.Models\\Deposito.Shared.Models.csproj"
             },
             "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Users\\Users.csproj": {
               "projectPath": "C:\\Users\\Luiz\\Documents\\GitHub\\Deposito\\Users\\Users.csproj"

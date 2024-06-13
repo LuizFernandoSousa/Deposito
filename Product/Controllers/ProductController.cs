@@ -26,7 +26,7 @@ public class ProductController : ControllerBase
     [HttpPost ("CreateProduct")]
     public IActionResult CreateProdutc(CreateProductDto dto)
     {
-        Products product = _mapper.Map<Products>(dto);
+        Productsss product = _mapper.Map<Productsss>(dto);
         _dbContextProduct.Products.Add(product);
         _dbContextProduct.SaveChanges();
 
@@ -36,7 +36,7 @@ public class ProductController : ControllerBase
 
 
     [HttpGet ("GetAllProduct")]
-    public IEnumerable<Products> GetAllProducts(int skip = 0, int take = 50) 
+    public IEnumerable<Productsss> GetAllProducts(int skip = 0, int take = 50) 
     {
         return _dbContextProduct.Products.Skip(skip).Take(take).ToList();
     
